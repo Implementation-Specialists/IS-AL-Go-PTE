@@ -2,7 +2,7 @@ namespace ISZ.ProjectName;
 
 using Microsoft.Sales.Customer;
 
-pageextension 50100 "Customer Card" extends "Customer Card"
+pageextension 50100 "ISZ Customer Card" extends "Customer Card"
 {
     layout
     {

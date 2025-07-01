@@ -60,7 +60,7 @@
 		"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
 		"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
 		"CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-		"CRS.RemoveSuffixFromFilename": false,
+		"CRS.RemoveSuffixFromFilename": true,
 		"CRS.RemovePrefixFromFilename": true,
 		"CRS.OnSaveAlFileAction": "Rename",
 		"CRS.SkipWarningMessageOnRenameAll": true,

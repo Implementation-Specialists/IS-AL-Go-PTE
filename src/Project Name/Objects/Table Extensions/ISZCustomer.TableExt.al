@@ -2,7 +2,7 @@ namespace ISZ.ProjectName;
 
 using Microsoft.Sales.Customer;
 
-tableextension 50100 "Customer" extends Customer
+tableextension 50100 "ISZ Customer" extends Customer
 {
     fields
     {
