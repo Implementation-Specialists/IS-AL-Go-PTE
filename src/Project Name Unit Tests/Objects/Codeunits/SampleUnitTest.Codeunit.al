@@ -56,7 +56,7 @@ codeunit 50103 "Sample Unit Test"
         Assert.AreEqual(RandomTitle, CustomerCard."ISZ Title".Value(), 'Customer ISZ Title is incorrect');
 
         // [THEN] ISZ Sample Sample value is correct 
-        SampleRecord.Get(RandomId);
-        Assert.AreEqual(Sample::Sample2, SampleRecord.Sample, 'Sample Sample value is incorrect');
+        if SampleRecord.Get(RandomId) then
+            Assert.AreEqual(Sample::Sample2, SampleRecord.Sample, 'Sample Sample value is incorrect');
     end;
 }

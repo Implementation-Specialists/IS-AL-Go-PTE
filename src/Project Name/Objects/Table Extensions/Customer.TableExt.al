@@ -11,6 +11,7 @@ tableextension 50100 "Customer" extends Customer
             Caption = 'Sample Id';
             DataClassification = CustomerContent;
             TableRelation = "Sample".Id where(Id = field("ISZ Sample Id"));
+            ToolTip = 'Specifies the value of the Sample Id field.';
         }
         field(50101; "ISZ Title"; Text[250])
         {
@@ -18,6 +19,7 @@ tableextension 50100 "Customer" extends Customer
             Caption = 'Title';
             Editable = false;
             FieldClass = FlowField;
+            ToolTip = 'Specifies the value of the Title field.';
         }
 
     }

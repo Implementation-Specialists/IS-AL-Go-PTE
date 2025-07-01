@@ -25,7 +25,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "12.2",
+  "runtime": "15.1",
   "features": [
     "NoImplicitWith",
     "TranslationFile"

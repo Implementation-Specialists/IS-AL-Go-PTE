@@ -19,15 +19,12 @@ page 50100 "Sample Card"
 
                 field(Id; Rec.Id)
                 {
-                    ToolTip = 'Specifies the value of the Id field.';
                 }
                 field(Title; Rec.Title)
                 {
-                    ToolTip = 'Specifies the value of the Title field.';
                 }
                 field(Sample; Rec.Sample)
                 {
-                    ToolTip = 'Specifies the value of the Sample field.';
                 }
             }
             grid(MyGrid)
