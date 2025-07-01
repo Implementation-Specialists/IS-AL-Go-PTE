@@ -34,7 +34,7 @@ table 50100 "Sample"
     }
     fieldgroups
     {
-        fieldgroup(Dropdown; Title, Sample)
+        fieldgroup(DropDown; Title, Sample)
         {
         }
         fieldgroup(Brick; Title, Sample)
