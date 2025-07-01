@@ -1,0 +1,33 @@
+{
+  "id": "b403d8d1-8976-49c8-bb95-10e86953527f",
+  "name": "Project Name",
+  "publisher": "Implementation Specialists",
+  "version": "26.2.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "../Resources/ISLogo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.2.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.2",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
