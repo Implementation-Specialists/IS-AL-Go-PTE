@@ -36,6 +36,7 @@ report 50100 "Sample"
 
                     field(TestCtrl; Test)
                     {
+                        ApplicationArea = All;
                         Caption = 'Do a Test';
                         ToolTip = 'Specifies the value of the Do a Test field.';
                     }
@@ -48,6 +49,7 @@ report 50100 "Sample"
             {
                 action(Thing)
                 {
+                    ApplicationArea = All;
                     Caption = 'Do the thing.';
                     ToolTip = 'Does the thing.';
 
