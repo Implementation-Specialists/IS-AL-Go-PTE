@@ -7,6 +7,7 @@ permissionset 50100 "Base Ext. Access"
     Permissions = table "Sample" = X,
         tabledata "Sample" = RMID,
         codeunit "Sample" = X,
+        codeunit "Sample Test" = X,
         page "Sample Card" = X,
         xmlport "Sample" = X,
         query "Sample" = X,
